@@ -7,11 +7,11 @@ public class Main {
 		Scanner nome = new Scanner (System.in);
 		String nomeDaPessoa = nome.nextLine();
 		if (nomeDaPessoa.contains(" ")) {
-			System.out.println("Nome válido.");
+			System.out.println("Nome vï¿½lido.");
 		}else{
-			System.out.println("Nome inválido.");
+			System.out.println("Nome invï¿½lido.");
 		}
-		
+		//oi
 		System.out.println("Digite a sua idade: ");
 		Scanner idade = new Scanner (System.in);
 		int idadeDaPessoa = idade.nextInt();
@@ -20,9 +20,9 @@ public class Main {
 		Scanner email = new Scanner (System.in);
 		String emailDaPessoa = email.next();
 		if (emailDaPessoa.contains("@")) {
-			System.out.println("E-mail válido.");
+			System.out.println("E-mail vï¿½lido.");
 		}else{
-			System.out.println("E-mail inválido.");
+			System.out.println("E-mail invï¿½lido.");
 		}
 		
 		System.out.println("Digite a sua cidade: ");
@@ -40,13 +40,13 @@ public class Main {
 		System.out.println("Estado: "+estadoDaPessoa);
 		System.out.println("Idade: "+idadeDaPessoa+" anos.");
 		if (idadeDaPessoa <= 2){
-			System.out.println("Bebê");
+			System.out.println("Bebï¿½");
 		}
 		if (idadeDaPessoa > 2 && idadeDaPessoa <= 12) {
-			System.out.println("Criança");
+			System.out.println("Crianï¿½a");
 		}
 		if (idadeDaPessoa > 12 && idadeDaPessoa <= 16) {
-			System.out.println("Pré-Adolescente");
+			System.out.println("Prï¿½-Adolescente");
 		}
 		if (idadeDaPessoa > 16 && idadeDaPessoa <= 21) {
 			System.out.println("Adolescente");
